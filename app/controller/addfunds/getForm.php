@@ -147,3 +147,9 @@ if ($selectedMethod == 69) {
     $formData .= $feeField;
     $formData .= replaceText($paymentBtn, "Start Payment");
 }
+
+if ($selectedMethod == 71) {
+    $formData .= $amountField;
+    $formData .= $feeField;
+    $formData .= replaceText($paymentBtn, "Start Payment With SohojPay");
+}
